@@ -35,3 +35,34 @@ Think of it as a **gentle gateway** into the Rust world.
 
 Rustic is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute it as long as attribution is provided.
+
+---
+
+## 🧑‍💻 Example
+
+```rust
+// Import built-in modules
+import math
+import io
+
+// Define a structure
+struct Point {
+    x: float,
+    y: float
+}
+
+// Function to calculate distance
+fn distance(p1: Point, p2: Point) -> float {
+    let dx: float = p1.x - p2.x
+    let dy: float = p1.y - p2.y
+    return math.sqrt(dx*dx + dy*dy)
+}
+
+// Program entry
+fn main() -> void {
+    let a: Point = Point{x: 0.0, y: 0.0}
+    let b: Point = Point{x: 3.0, y: 4.0}
+    
+    let d: float = distance(a, b)
+    io.print("Distance: " + d)
+}

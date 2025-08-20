@@ -40,18 +40,18 @@ You are free to use, modify, and distribute it as long as attribution is provide
 
 ## 🧑‍💻 Example
 
-```python
+```cpp
 // Import built-in modules
 import math
 import io
 
-// Define a structure
+
 struct Point {
     x: float,
     y: float
 }
 
-// Function to calculate distance
+
 fn distance(p1: Point, p2: Point) -> float {
     let dx: float = p1.x - p2.x
     let dy: float = p1.y - p2.y

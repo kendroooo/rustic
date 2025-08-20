@@ -40,7 +40,7 @@ You are free to use, modify, and distribute it as long as attribution is provide
 
 ## 🧑‍💻 Example
 
-```rust
+```typescript
 // Import built-in modules
 import math
 import io
